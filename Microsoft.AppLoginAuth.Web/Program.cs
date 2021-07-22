@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microsoft.AppProxyWindows.Web
+namespace Microsoft.AppLoginAuth.Web
 {
     public class Program
     {

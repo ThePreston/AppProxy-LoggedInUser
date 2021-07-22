@@ -1,19 +1,18 @@
-﻿using Microsoft.AppProxyWindows.Web.Models;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AppLoginAuth.Web.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Microsoft.AppProxyWindows.Web.Controllers
+namespace Microsoft.AppLoginAuth.Web.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
-
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -22,10 +21,16 @@ namespace Microsoft.AppProxyWindows.Web.Controllers
         }
 
         public IActionResult Index()
-        {   
+        {
             return View();
         }
 
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

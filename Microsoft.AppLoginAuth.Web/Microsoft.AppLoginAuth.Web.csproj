@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Microsoft.AppLoginAuth.Web-13EE53E9-0235-4F29-8016-108EF529A3C4</UserSecretsId>
+    <WebProject_DirectoryAccessLevelKey>0</WebProject_DirectoryAccessLevelKey>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="3.1.17" />
+  </ItemGroup>
+
+</Project>

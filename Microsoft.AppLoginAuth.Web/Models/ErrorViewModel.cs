@@ -1,6 +1,6 @@
 using System;
 
-namespace Microsoft.AppProxyWindows.Web.Models
+namespace Microsoft.AppLoginAuth.Web.Models
 {
     public class ErrorViewModel
     {

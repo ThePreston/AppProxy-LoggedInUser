@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Microsoft.AppLoginAuth.Web/appsettings.json
+/Microsoft.AppLoginAuth.Web/Properties/ServiceDependencies/AppProxyAuth - Web Deploy/profile.arm.json
