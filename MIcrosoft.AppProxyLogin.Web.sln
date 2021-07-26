@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AppLoginAuth.Web", "Microsoft.AppLoginAuth.Web\Microsoft.AppLoginAuth.Web.csproj", "{56010894-B988-4566-99A8-E85E277ECDAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AppLoginAuth.Web", "Microsoft.AppLoginAuth.Web\Microsoft.AppLoginAuth.Web.csproj", "{56010894-B988-4566-99A8-E85E277ECDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AppLoginWindows.Web", "Microsoft.AppLoginWindows.Web\Microsoft.AppLoginWindows.Web.csproj", "{BC33A755-44A9-42EF-822B-0F3FF6A58D1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{56010894-B988-4566-99A8-E85E277ECDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56010894-B988-4566-99A8-E85E277ECDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56010894-B988-4566-99A8-E85E277ECDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC33A755-44A9-42EF-822B-0F3FF6A58D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC33A755-44A9-42EF-822B-0F3FF6A58D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC33A755-44A9-42EF-822B-0F3FF6A58D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC33A755-44A9-42EF-822B-0F3FF6A58D1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

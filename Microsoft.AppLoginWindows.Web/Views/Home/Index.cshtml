@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1> Name : @User.Identity.Name </h1> 
+    <h2> IsAuthenticated : @User.Identity.IsAuthenticated</h2>
+    <h2> AuthenticationType : @User.Identity.AuthenticationType </h2>
+</div>
+<div class="text-center">
+    <p>Logged in User Demo App</p>
+</div>
